@@ -1,13 +1,13 @@
 // Faça o exercício da equação de GRAVITAÇÃO UNIVERSAL aqui
 // Este arquivo AINDA NÃO ESTÁ INCLUÍDO no arquivo HTML
 
-let botaoCalcular = document.querySelector('#calcular');
+let botaoCalc = document.querySelector('#calcular');
 
 function calcularForcaGravitacional(g, massa1, massa2, distancia){
     return (g*massa1*massa2)/(distancia*distancia);
 }
 
-botaoCalcular.addEventListener('click', function() {
+botaoCalc.addEventListener('click', function() {
     let g = document.querySelector('#constante');
     let massa1 = document.querySelector('#massa1');
     let massa2 = document.querySelector('#massa2');
